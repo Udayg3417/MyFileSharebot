@@ -19,20 +19,20 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 
 # Bot Information 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-ADMINS =int(os.environ.get("ADMINS", "")
+APP_ID = int(os.environ.get("APP_ID", "21562110"))
+API_HASH = os.environ.get("API_HASH", "4d1e1f333214a39cea79a3196cbed290")
+ADMINS =int(os.environ.get("ADMINS", "6909056240")
 ADMINS = environ.get("ADMINS", OWNER)
 
 #Channel 
 CHANNEL = int(os.environ.get("CHANNEL", ""))
-OWNER = int(os.environ.get("OWNER", ""))
+OWNER = int(os.environ.get("OWNER", "6909056240"))
 FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "0"))
 BOT_WORKERS = int(os.environ.get("BOT_WORKERS", "4"))
 
 # MongoDB Database 
 PORT = os.environ.get("PORT", "8080")
-DATABASE_URI = os.environ.get("DATABASE_URL", "")
+DATABASE_URI = os.environ.get("DATABASE_URL", "mongodb+srv://guday3417:GUDAY333@cluster0.pdrwfcn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 # Other 
