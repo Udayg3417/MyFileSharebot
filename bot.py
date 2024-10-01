@@ -26,6 +26,7 @@ class Bot(Client):
             workers=BOT_WORKERS,
             bot_token=BOT_TOKEN)
             self.LOGGER = LOGGER
+        
 
     async def start(self):
         await super().start()
