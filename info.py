@@ -14,7 +14,7 @@ def is_enabled(value, default):
 
 
 # Auto Delete
-AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
+AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), False)
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 
 # Bot Information 
@@ -25,9 +25,9 @@ ADMINS =int(os.environ.get("ADMINS", "6909056240")
 ADMINS = environ.get("ADMINS", OWNER)
 
 #Channel 
-CHANNEL = int(os.environ.get("CHANNEL", ""))
+CHANNEL = int(os.environ.get("CHANNEL", "-1002191088551"))
 OWNER = int(os.environ.get("OWNER", "6909056240"))
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "0"))
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1001902643858"))
 BOT_WORKERS = int(os.environ.get("BOT_WORKERS", "4"))
 
 # MongoDB Database 
